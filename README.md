@@ -25,7 +25,6 @@ Alexander White
 #### Running the app
 * `node index.js` - run to generate both loop.js and pair-programming.html
 * `node files/loop.js` - run to console.log the names from the created array in generated loop.js
-
   
 #### Tests
 * How do you run tests? `npm test`
