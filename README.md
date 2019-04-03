@@ -8,26 +8,23 @@ Buffers - File Transformers
 Alexander White
 
 ### Links and Resources
-* [Repo](https://github.com/alex-white-401-advanced-javascript/lab-04)
-* [[![Build Status](https://www.travis-ci.com/alex-white-401-advanced-javascript/lab-04.svg?branch=master)](https://www.travis-ci.com/alex-white-401-advanced-javascript/lab-04)]
-
-#### Documentation
-* [jsdoc]()
+* [PR](https://github.com/alex-white-401-advanced-javascript/lab-04/pull/3/)
 
 ### Modules
-#### `modulename.js`
+#### `index.js`
 ##### Exported Values and Methods
 
-###### `foo(thing) -> string`
-Usage Notes or examples
+###### `function createLoopJS(create) -> loop.js`
+* This function generates a file called `loop.js` in the `/files` directory. It does this by generating the writing to said file with  buffer.
 
-###### `bar(array) -> array`
-Usage Notes or examples
+###### `readIt() -> pair-programming.html`
+* This function creates a file called `pair-programming.html` in the `/files` directory. It does this by reading in a file called `pair-programming.txt` as a buffer. Then it looks for line breaks and checks its length being smaller than 40. It then adds to those buffers with HTML tags dependent on their length and pushes them to an array. Once the array is done populating, a concated array gets written to `pair-programing.html`.
+
 
 ### Setup
 #### Running the app
-* `npm start`
-* Endpoint: `/`
+* `node index.js` - run to generate both loop.js and pair-programming.html
+* `node files/loop.js` - run to console.log the names from the created array in generated loop.js
   
 #### Tests
 * How do you run tests? `npm test`
