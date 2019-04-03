@@ -9,25 +9,23 @@ Alexander White
 
 ### Links and Resources
 * [Repo](https://github.com/alex-white-401-advanced-javascript/lab-04)
-* [[![Build Status](https://www.travis-ci.com/alex-white-401-advanced-javascript/lab-04.svg?branch=master)](https://www.travis-ci.com/alex-white-401-advanced-javascript/lab-04)]
 
-#### Documentation
-* [jsdoc]()
 
 ### Modules
-#### `modulename.js`
+#### `index.js`
 ##### Exported Values and Methods
 
-###### `foo(thing) -> string`
-Usage Notes or examples
+###### `function createLoopJS(create) -> loop.js`
+* This function generates a file called `loop.js` in the `/files` directory
 
 ###### `bar(array) -> array`
-Usage Notes or examples
+
 
 ### Setup
 #### Running the app
-* `npm start`
-* Endpoint: `/`
+* `node index.js` - run to generate both loop.js and pair-programming.html
+* `node files/loop.js` - run to console.log the names from the created array in generated loop.js
+
   
 #### Tests
 * How do you run tests? `npm test`
