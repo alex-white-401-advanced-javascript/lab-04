@@ -9,10 +9,7 @@ Alexander White
 
 ### Links and Resources
 * [Repo](https://github.com/alex-white-401-advanced-javascript/lab-04)
-* [[![Build Status](https://www.travis-ci.com/alex-white-401-advanced-javascript/lab-04.svg?branch=master)](https://www.travis-ci.com/alex-white-401-advanced-javascript/lab-04)]
 
-#### Documentation
-* [jsdoc]()
 
 ### Modules
 #### `index.js`
